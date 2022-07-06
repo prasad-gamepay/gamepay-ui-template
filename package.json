@@ -7,7 +7,8 @@
     "watch": "webpack --watch",
     "build": "NODE_ENV=production webpack",
     "build-dev": "webpack",
-    "reset": "rm -rf node_modules && rm package-lock.json"
+    "clean:dist": "rm -rf dist",
+    "clean": "rm -rf dist && rm -rf node_modules && rm package-lock.json"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,9 @@
     "@babel/preset-env": "^7.18.6",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
     "postcss-loader": "^7.0.0",
     "postcss-preset-env": "^7.7.2",
