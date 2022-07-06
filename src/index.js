@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const simpleObject = {
     name: 'prasad',
     about: 'developer',
