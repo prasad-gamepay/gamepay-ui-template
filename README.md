@@ -9,3 +9,7 @@ npm run build
 ## Build in Dev
 npm run build-dev
 
+## Clean project directory
+npm run clean
+
+
