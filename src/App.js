@@ -1,5 +1,4 @@
 import React from "react";
-import Recipes from "./Recipies";
 
 import "./styles/index.scss";
 
